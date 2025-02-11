@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: #fff;
+  font-family: Montserrat;
+}
+.header {
+  background-color: #000;
+
+}
+
+.header__link {
+  text-decoration: none;
+  color: inherit;
+  transition: 250ms;
+}
+
+.header__link:hover {
+  color: #0fe;
+}
+
+.main {
+  backgorund-color: blue;
+  flex: 1;
+  padding: 10px;
+  margin: 0 10px 10px;
+  border-radius: 10px;
+}
+
+.main__texts {
+  display: flex;
+  flex-direction: column;
+}
+
+.main__link {
+
+}
